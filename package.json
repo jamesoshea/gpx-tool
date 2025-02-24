@@ -1,0 +1,28 @@
+{
+  "name": "gpx-tool",
+  "version": "1.0.0",
+  "description": "A tool to add GPS co-ordinates to photos, using a GPX track",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "James O'Shea",
+  "license": "MIT",
+  "dependencies": {
+    "args": "^5.0.3",
+    "dist-exiftool": "^10.53.0",
+    "gpxparser": "^3.0.8",
+    "moment": "^2.30.1",
+    "node-exiftool": "^2.3.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint": "^9.21.0",
+    "globals": "^16.0.0",
+    "@types/bun": "latest"
+  },
+  "private": true,
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
